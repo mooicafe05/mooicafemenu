@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kahveler</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#f8f5f2;
+color:#333;
+}
+
+/* HEADER */
+.header{
+background:linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+url('./image/kahve-header.jpg');
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+color:white;
+text-align:center;
+padding:70px 20px;
+}
+
+.header h2{
+font-weight:600;
+font-size:32px;
+letter-spacing:1px;
+}
+
+/* MENU */
+.menu{
+max-width:750px;
+margin:40px auto;
+padding:0 20px;
+}
+
+.item{
+background:white;
+padding:15px;
+margin-bottom:18px;
+border-radius:16px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+box-shadow:0 5px 18px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.item:hover{
+transform:translateY(-4px);
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.item-left{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.item img{
+width:60px;
+height:60px;
+border-radius:12px;
+object-fit:cover;
+}
+
+.item-name{
+font-weight:500;
+}
+
+.price{
+background:#4b2e2e;
+color:white;
+padding:6px 14px;
+border-radius:30px;
+font-size:14px;
+font-weight:600;
+}
+
+/* BACK BUTTON */
+.back{
+display:block;
+text-align:center;
+margin:40px auto;
+text-decoration:none;
+background:#4b2e2e;
+color:white;
+padding:12px 25px;
+border-radius:30px;
+width:200px;
+font-weight:500;
+transition:0.3s;
+}
+
+.back:hover{
+background:#2f1b1b;
+}
+
+/* MOBILE */
+@media(max-width:500px){
+.header h2{font-size:22px;}
+.item img{width:50px;height:50px;}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<h2>Kahveler</h2>
+</div>
+
+<div class="menu">
+
+<div class="item">
+<div class="item-left">
+<img src="./image/kahveler.jpg" alt="Türk Kahvesi">
+<span class="item-name">Türk Kahvesi</span>
+</div>
+<span class="price">₺120</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/kahveler (1).jpg" alt="Türk Kahvesi">
+<span class="item-name">Sıcak Çikolata</span>
+</div>
+<span class="price">₺180</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/kahveler (2).jpg" alt="Türk Kahvesi">
+<span class="item-name">Chai Tea Latte</span>
+</div>
+<span class="price">₺180</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/kahveler (3).jpg" alt="Türk Kahvesi">
+<span class="item-name">Sıcak Süt</span>
+</div>
+<span class="price">₺120</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/kahveler (4).jpg" alt="Türk Kahvesi">
+<span class="item-name">Salep</span>
+</div>
+<span class="price">₺180</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/kahveler (5).jpg" alt="Caramel Macchiato">
+<span class="item-name">Caramel Macchiato</span>
+</div>
+<span class="price">₺190</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/kahveler (6).jpg" alt="Americano">
+<span class="item-name">Americano</span>
+</div>
+<span class="price">₺130</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/kahveler (7).jpg" alt="White Mocha">
+<span class="item-name">White Mocha</span>
+</div>
+<span class="price">₺190</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/kahveler (8).jpg" alt="White Mocha">
+<span class="item-name">Chocolatte Mocha</span>
+</div>
+<span class="price">₺190</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/kahveler (9).jpg" alt="White Mocha">
+<span class="item-name">Latte (Aromalı: ₺200 )</span>
+</div>
+<span class="price">₺190</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/kahveler (10).jpg" alt="White Mocha">
+<span class="item-name">Ice White Mocha</span>
+</div>
+<span class="price">₺200</span>
+</div>
+
+
+<div class="item">
+<div class="item-left">
+<img src="./image/kahveler (11).jpg" alt="White Mocha">
+<span class="item-name">Ice Americano</span>
+</div>
+<span class="price">₺140</span>
+</div>
+
+
+<div class="item">
+<div class="item-left">
+<img src="./image/kahveler (12).jpg" alt="White Mocha">
+<span class="item-name">Ice Chocolatte Mocha</span>
+</div>
+<span class="price">₺200</span>
+</div>
+
+
+<div class="item">
+<div class="item-left">
+<img src="./image/kahveler (13).jpg" alt="White Mocha">
+<span class="item-name">Dibek Kahvesi (Double: ₺155)</span>
+</div>
+<span class="price">₺115</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/kahveler (14).jpg" alt="White Mocha">
+<span class="item-name">Ice Latte (Aromalı: ₺200)</span>
+</div>
+<span class="price">₺190</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/kahveler (15).jpg" alt="White Mocha">
+<span class="item-name">Ice Caramel Macchiato</span>
+</div>
+<span class="price">₺200</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/kahveler (17).jpg" alt="White Mocha">
+<span class="item-name">Çikolatalı Milkshake</span>
+</div>
+<span class="price">₺210</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/kahveler (18).jpg" alt="White Mocha">
+<span class="item-name">Ice White Mocha</span>
+</div>
+<span class="price">₺200</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/kahveler (19).jpg" alt="White Mocha">
+<span class="item-name">Ice Chocolatte Mocha</span>
+</div>
+<span class="price">₺200</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/kahveler (20).jpg" alt="White Mocha">
+<span class="item-name">Espresso</span>
+</div>
+<span class="price">₺90</span>
+</div>
+
+</div>
+
+<a href="index.html" class="back">← Ana Menüye Dön</a>
+
+</body>
+</html>

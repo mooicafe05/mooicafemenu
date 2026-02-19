@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fresh & Soğuk İçecekler</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#f8f5f2;
+color:#333;
+}
+
+.header{
+background:linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+url('./image/fresh-header.jpg');
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+color:white;
+text-align:center;
+padding:70px 20px;
+}
+
+.header h2{
+font-weight:600;
+font-size:32px;
+letter-spacing:1px;
+}
+/* MENU */
+.menu{
+max-width:750px;
+margin:40px auto;
+padding:0 20px;
+}
+
+.item{
+background:white;
+padding:15px;
+margin-bottom:18px;
+border-radius:16px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+box-shadow:0 5px 18px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.item:hover{
+transform:translateY(-4px);
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.item-left{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.item img{
+width:60px;
+height:60px;
+border-radius:12px;
+object-fit:cover;
+}
+
+.item-name{
+font-weight:500;
+}
+
+.price{
+background:#4b2e2e;
+color:white;
+padding:6px 14px;
+border-radius:30px;
+font-size:14px;
+font-weight:600;
+}
+
+/* BACK BUTTON */
+.back{
+display:block;
+text-align:center;
+margin:40px auto;
+text-decoration:none;
+background:#4b2e2e;
+color:white;
+padding:12px 25px;
+border-radius:30px;
+width:220px;
+font-weight:500;
+transition:0.3s;
+}
+
+.back:hover{
+background:#2f1b1b;
+}
+
+/* MOBILE */
+@media(max-width:500px){
+.header h2{font-size:22px;}
+.item img{width:50px;height:50px;}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<h2>Fresh & Soğuk İçecekler</h2>
+</div>
+
+<div class="menu">
+
+<div class="item">
+<div class="item-left">
+<img src="./image/ice-drink.jpg" alt="Minty">
+<span class="item-name">Minty</span>
+</div>
+<span class="price">₺180</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/ice-drink (1).jpg" alt="Minty">
+<span class="item-name">Limonata</span>
+</div>
+<span class="price">₺160</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/ice-drink (2).jpg" alt="Blue Ocean">
+<span class="item-name">Blue Ocean</span>
+</div>
+<span class="price">₺180</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/ice-drink (3).jpg" alt="Blue Ocean">
+<span class="item-name">Berry Hıbıscus</span>
+</div>
+<span class="price">₺180</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/ice-drink (4).jpg" alt="Cool Lime">
+<span class="item-name">Cool Lime</span>
+</div>
+<span class="price">₺180</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/ice-drink (5).jpg" alt="Cool Lime">
+<span class="item-name">Vanilyalı Milkshake</span>
+</div>
+<span class="price">₺210</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/ice-drink (6).jpg" alt="Cool Lime">
+<span class="item-name">Çilekli Milkshake</span>
+</div>
+<span class="price">₺210</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/ice-drink (13).jpg" alt="Cool Lime">
+<span class="item-name">Sarı-Yeşil Melodi</span>
+</div>
+<span class="price">₺200</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/ice-drink (14).jpg" alt="Cool Lime">
+<span class="item-name">Sıkma Portakal Suyu</span>
+</div>
+<span class="price">₺200</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/ice-drink (15).jpg" alt="Cool Lime">
+<span class="item-name">Limonata</span>
+</div>
+<span class="price">₺160</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/ice-drink (7).jpg" alt="Cool Lime">
+<span class="item-name">Yabanmersinli RedBull</span>
+</div>
+<span class="price">₺145</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/ice-drink (8).jpg" alt="Cool Lime">
+<span class="item-name">Classic RedBull</span>
+</div>
+<span class="price">₺135</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/ice-drink (9).jpg" alt="Cool Lime">
+<span class="item-name">Tropikal Meyveli RedBull</span>
+</div>
+<span class="price">₺145</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/ice-drink (10).jpg" alt="Cool Lime">
+<span class="item-name">Hindistan Cevizli RedBull</span>
+</div>
+<span class="price">₺145</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/ice-drink (11).jpg" alt="Uludağ Soda">
+<span class="item-name">Uludağ Soda</span>
+</div>
+<span class="price">₺85</span>
+</div>
+
+<div class="item">
+<div class="item-left">
+<img src="./image/ice-drink (12).jpg" alt="Su">
+<span class="item-name">Su</span>
+</div>
+<span class="price">₺40</span>
+</div>
+
+</div>
+
+<a href="index.html" class="back">← Ana Menüye Dön</a>
+
+</body>
+</html>
